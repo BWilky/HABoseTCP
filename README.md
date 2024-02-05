@@ -18,14 +18,14 @@ Create a Long Lived Token
 
 Each zone needs the following:
 
--Helper Input Number (Volume)
--Helper Boolean (Mute)
--Helper Select (Audio Source)
+- Helper Input Number (Volume)
+- Helper Boolean (Mute)
+- Helper Select (Audio Source)
 
 They should follow the following name syntax
 
--input_number.bose_volume_***name***
--input_select.bose_source_***name***
--input_boolean.bose_mute_***name***
+- input_number.bose_volume_***name***
+- input_select.bose_source_***name***
+- input_boolean.bose_mute_***name***
 
 
