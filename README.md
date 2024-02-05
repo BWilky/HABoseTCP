@@ -2,7 +2,7 @@
 
 
 [Home Assistant](https://www.home-assistant.io/)
-Creates a connector to broker data between a Bose CSP and Home Assistant
+Creates a connector to broker data between a Bose CSP and Home Assistant. It manages a TCP client connection to the BOSE CSP to maintain current values for the zones volumes, mute, input source. As well, it will maintain a websocket connection to Home Assistant to listen for user updates utilizing helpers for each control/zone. The program is meant to run utilizing pm2 and has variable reconnecting on both connections to survive disconnects, interuptions reboots etc.
 
 
 
